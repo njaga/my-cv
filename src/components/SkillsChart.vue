@@ -1,9 +1,9 @@
 <!-- SkillsChart.vue -->
 <template>
     <section class="bg-white p-8 rounded-2xl shadow-xl">
-        <h2 class="text-3xl font-bold mb-6 text-blue-800 relative">
+        <h2 class="text-4xl font-extrabold mb-10 text-indigo-800 relative inline-block">
             COMPÉTENCES
-            <span class="absolute bottom-0 left-0 w-20 h-1 bg-blue-500"></span>
+            <span class="absolute -bottom-2 left-0 w-full h-1 bg-indigo-500 rounded-full"></span>
         </h2>
         <div class="w-full h-96">
             <apexchart type="radar" :options="chartOptions" :series="series"></apexchart>

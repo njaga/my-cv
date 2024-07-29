@@ -1,9 +1,9 @@
 <!-- ContactInfo.vue -->
 <template>
     <section class="bg-white p-8 rounded-2xl shadow-xl transform hover:scale-105 transition duration-300">
-        <h2 class="text-3xl font-bold mb-6 text-blue-800 relative">
-            CONTACT
-            <span class="absolute bottom-0 left-0 w-20 h-1 bg-blue-500"></span>
+        <h2 class="text-4xl font-extrabold mb-10 text-indigo-800 relative inline-block">
+            CONTACTS
+            <span class="absolute -bottom-2 left-0 w-full h-1 bg-indigo-500 rounded-full"></span>
         </h2>
         <ul class="space-y-4">
             <li v-for="(item, index) in contactItems" :key="index"
