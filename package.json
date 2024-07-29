@@ -21,6 +21,7 @@
     "lucide": "^0.416.0",
     "lucide-vue-next": "^0.416.0",
     "pinia": "^2.1.7",
+    "swiper": "^11.1.8",
     "vue": "^3.4.29",
     "vue-apexcharts": "^1.6.2",
     "vue-router": "^4.3.3",

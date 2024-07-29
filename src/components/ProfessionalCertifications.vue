@@ -17,7 +17,7 @@
                 <div class="mt-4 pt-4 border-t border-indigo-200 text-center">
                     <span
                         class="inline-block bg-indigo-100 text-indigo-800 text-sm px-3 py-1 rounded-full font-semibold">
-                        {{ cert.level || 'Certified' }}
+                        {{ cert.level || 'Certifié' }}
                     </span>
                 </div>
             </div>

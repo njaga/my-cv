@@ -7,8 +7,9 @@
         <ContactInfo />
         <SkillsChart />
       </div>
-      <TimelineExperience class="mt-16" />
-      <ProfessionalCertifications class="mt-16" />
+      <LanguageSkills class="mt-14" />
+      <TimelineExperience class="mt-14" />
+      <ProfessionalCertifications class="mt-14" />
     </div>
   </div>
 </template>
@@ -19,7 +20,8 @@ import AppHeader from './components/AppHeader.vue';
 import ContactInfo from './components/ContactInfo.vue';
 import SkillsChart from './components/SkillsChart.vue';
 import TimelineExperience from './components/TimelineExperience.vue';
-import ProfessionalCertifications from '@/components/ProfessionalCertifications.vue'
+import ProfessionalCertifications from './components/ProfessionalCertifications.vue'
+import LanguageSkills from './components/LanguageSkills.vue';
 
 export default defineComponent({
   name: 'App',
@@ -29,6 +31,7 @@ export default defineComponent({
     SkillsChart,
     TimelineExperience,
     ProfessionalCertifications,
+    LanguageSkills,
   }
 });
 </script>
